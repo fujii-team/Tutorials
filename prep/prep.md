@@ -13,7 +13,7 @@
 (Anaconda)[https://www.continuum.io/downloads#_unix]
 にアクセスし、 **PYTHON 3.5 64bit** をダウンロードする。
 
-<img src=prep/Anaconda_download.png width=480pt>
+<img src=Anaconda_download.png width=480pt>
 
 
 homeディレクトリにAnaconda2ディレクトリを作成
@@ -50,7 +50,7 @@ http://www.syntevo.com/smartgit/download
 
 からSmartGitをダウンロードする。
 
-<img src=prep/SmartGit_download.png width=480pt>
+<img src=SmartGit_download.png width=480pt>
 
 ## 解凍
 
@@ -58,7 +58,7 @@ Linux で圧縮ファイルを解答するには、以下を実行する。
 
 `tar -xvf Download/smartgit-linux-7_1_2.tar.gz`
 
-<img src=prep/SmartGit_unzip.png width=480pt>
+<img src=SmartGit_unzip.png width=480pt>
 
 
 
@@ -84,9 +84,9 @@ https://github.com/
 
 SmartGitを起動し、右上のRepository > **clone** を選択する。
 
-<img src=prep/SmartGit_clone.png width=480pt>  
+<img src=SmartGit_clone.png width=480pt>  
 
-<img src=prep/SmartGit_directory.png width=480pt>
+<img src=SmartGit_directory.png width=480pt>
 
 
 ## 作業Branchの作成
@@ -100,11 +100,11 @@ SmartGitを起動し、右上のRepository > **clone** を選択する。
 SmartGit 上のメニューから Branch > Add Branch を選択する。
 各自の名前などブランチ名として入力し、Add Branch & Checkout を実行する。
 
-<img src=prep/SmartGit_add_branch.png width=480pt>
+<img src=SmartGit_add_branch.png width=480pt>
 
 左下のBranchesの枠内に、作ったブランチが表示され、かつそれが選択されていれば（Checkoutされていれば）OK
 
-<img src=prep/SmartGit_branch.png width=480pt>
+<img src=SmartGit_branch.png width=480pt>
 
 
 ## Commit
@@ -125,7 +125,7 @@ SmartGit 上のメニューから Branch > Add Branch を選択する。
 
 SmartGit右上の Push をクリックする
 
-<img src=prep/SmartGit_push.png width=480pt>
+<img src=SmartGit_push.png width=480pt>
 
 
 右下のOutputウィンドウ内に、エラーメッセージがでなければOK
@@ -134,7 +134,7 @@ GitHub ページにに行って、自分のBranchが作成されていること�
 
 
 
-<img src=prep/Github_branch.png width=480pt>
+<img src=Github_branch.png width=480pt>
 
 作業は基本的に、自分のブランチで行う。
 他人のブランチには触らない。
