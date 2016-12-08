@@ -4,7 +4,7 @@ Python，Stan， Tensorflowなどのチュートリアルです。
 
 # 開発環境の準備
 
-[こちら](prep.md)の手順に従う。
+[こちら](prep/prep.md)の手順に従う。
 
 # Python の練習
 
