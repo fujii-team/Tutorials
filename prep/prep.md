@@ -16,13 +16,13 @@
 <img src=Anaconda_download.png width=480pt>
 
 
-homeディレクトリにAnaconda2ディレクトリを作成
+homeディレクトリにAnaconda3ディレクトリを作成
 
-`mkdir ~/Anaconda2`
+`mkdir ~/Anaconda3`
 
-`mv [Anaconda2のパス] ~/Anaconda2/`
+`mv [Anaconda3のパス] ~/Anaconda3/`
 
-`bash ~/Anaconda2/Anaconda2-4.0.0-Linux-x86_64.sh`
+`bash ~/Anaconda3/Anaconda3-4.0.0-Linux-x86_64.sh`
 
 ページの指示に沿ってインストールを行う。
 
@@ -42,6 +42,10 @@ http://www.find-job.net/startup/7-git-slides
 
 など、仕組みや使い方を調べておくこと。
 
+まず、gitをインストールする。
+
+`sudo apt-get install git`
+
 **git** は基本的にコマンドラインで実行するソフトウェアだが、直感的でないので、
 GUIアプリケーションであるSmartGitを導入する。
 
@@ -54,11 +58,21 @@ http://www.syntevo.com/smartgit/download
 
 ## 解凍
 
-Linux で圧縮ファイルを解答するには、以下を実行する。
+Linux で圧縮ファイルを解凍するには、以下を実行する。
 
 `tar -xvf Download/smartgit-linux-7_1_2.tar.gz`
 
 <img src=SmartGit_unzip.png width=480pt>
+
+SmartGitにはJRE(Java Runtime Environment)が必要なので、
+
+`sudo apt-get install default-jre`
+
+を実行する。
+
+SmartGitをメニューバーに追加するために、解凍したディレクトリのsmartgit/bin/add-menuitem.shを実行する。
+
+`sudo ./add-menuitem.sh`
 
 
 
